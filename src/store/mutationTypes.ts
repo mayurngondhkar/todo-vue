@@ -15,5 +15,5 @@ export const DELETE_TASKS = 'deleteTask';
 
 export const GET_STATUSES = 'getStatuses';
 export const ADD_STATUSES = 'addStatus';
-export const UPDATE_STATUSES = 'updateStatus';
-export const DELETE_STATUSES = 'deleteStatus';
+export const UPDATE_STATUS = 'updateStatus';
+export const DELETE_STATUS = 'deleteStatus';
