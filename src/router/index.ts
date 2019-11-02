@@ -1,10 +1,16 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Todo from "../views/Todo.vue";
+import TodoItem from "../views/TodoItem.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/todoItem",
+    name: "todoItem",
+    component: TodoItem
+  },
   {
     path: "/todo",
     name: "home",
